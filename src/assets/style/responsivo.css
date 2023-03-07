@@ -19,12 +19,18 @@
         padding-right: 1rem;
     }
 
+    .secao-horizontal .cartao {
+        column-gap: 0.5rem;
+    }
+
     .secao-horizontal .cartao__imagem {
         height: 56px;
         width: 56px;
     }
 
     .secao-horizontal .cartao__titulo {
+        grid-row: 1/4;
+        align-self: center;
         font: 700 14px/20px Open Sans, sans-serif;
     }
 
