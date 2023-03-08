@@ -1,0 +1,21 @@
+.rodape {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(4, auto);
+}
+
+.rodape .rodape__imagem {
+    grid-area: 1/1/3/2;
+}
+
+.rodape .rodape__titulo {
+    grid-area: 1/2/2/3;
+}
+
+.rodape .rodape__subtitulo {
+    grid-area: 2/2/3/3;
+}
+
+.rodape__botao {
+    display: grid;
+}
